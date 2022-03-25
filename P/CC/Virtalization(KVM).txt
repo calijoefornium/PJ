@@ -1,0 +1,39 @@
+KVM
+Steps for performing virtualization in Ubuntu
+1. #sudo grep -c "svm\/vmx" /proc/cpuinfo
+
+2. #sudo apt-get install qemu-kvm libvirt-bin bridge-utils nager
+
+3. #sudoadduserrait
+   
+   #sudoadduserraitlibvirtd
+
+After running above command, log out and log back in as rait
+
+4. Run following command after logging back as rait and you
+empty list should visible. This indicates it is correctly working.
+#virsh -c qemu:///system list
+
+5. Open Virtual Machine Manager application and Create Virtual Machine
+
+#virt-manager
+
+--------------------------------------------------------------------------
+
+Steps for performing virtualization in Windows
+
+1) Launch VMware Workstation.
+
+2) Click New Virtual Machine.
+
+3) Select the type of virtual machine you want to create and click Next
+
+4) Enter Product Key.
+
+5) Create a user name and password, Click Next
+
+6) Enter a virtual machine name and specify a location for virtual machine files to be saved,
+click Next 12 Establish the virtual machine's disk size, select whether to store the
+virtual disk as a single file or split the virtual disk into 2GB files, click Next.
+
+7) Verify the other configuration settings for your virtual machine

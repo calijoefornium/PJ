@@ -1,0 +1,10 @@
+EH PRACT 7 [RAZORBA]
+
+1) Download Tamper Data Extension on Firefox
+2) Type https://www.broshaver.com/
+3) Click on Add To Cart(Button)
+4) Run Tamper-Data Extension
+5) Refresh the page
+6) set cookie to: p_bro22=2;
+
+

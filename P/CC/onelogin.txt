@@ -1,0 +1,14 @@
+User management in cloud (onelogin - proton mail)
+
+For signup/registering: https://www.onelogin.com
+
+Click on free trial enter your details
+
+Now login to your onelogin account
+
+For adding users: users-> Add users 
+Enter details of users
+
+For adding groups: users->click on any user ->authentication->add groups-> enter group details
+
+For adding application: click on any users->applications->"+"->search application->click on any application-> click on save user button

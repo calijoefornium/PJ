@@ -1,0 +1,20 @@
+Use NMap scanner to perform port scanning of various forms ACK, SYN, FIN, NULL, XMAS:
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Download nmap from Here:- https://nmap.org/download.html
+Set path using Environment variable (Optional/Automatically done)
+------------------------------------------------------------------------
+Type edit in start menu
+Go to edit environment variable Select path option
+Click edit
+Enter nmap path where it is installed Click ok
+click apply
+
+In order to check that nmap is installed correctly in your system type 
+command: nmap
+
+----COMMANDS:----
+ACK: nmap -sA -T4 www.apple.com
+SYN: nmap -p22,113,139 www.apple.com
+FIN: nmap -sF -T4 www.apple.com
+NULL: nmap -sN -p22 www.apple.com
+XMAS: nmap -sX -t4 www.apple.com

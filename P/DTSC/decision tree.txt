@@ -1,0 +1,33 @@
+DECISION TREE
+install.packages("tree")
+install.packages("rpart")
+install.packages("rpart.plot")
+library(rpart)
+library(rpart.plot)
+x=read.csv("D:/weather.csv")
+x
+sample_weather=sample(nrow(x),.7*nrow(x))
+weather_tr=x[sample_weather,]
+weather_test=x[sample_weather,]
+weather_test
+dtreemod = rpart(play~.,data = weather_tr,method = "class", control = rpart.control(minsplit=1,minbucket=1))
+rpart.plot(dtreemod,extra=106)
+p=predict(dtreemod,weather_test,type="class")
+weather_test
+table(weather_test$play,p)  //3-no & 6-yes i.e[6-yes/total no of obsevations]
+		            //		      [6/9= 66.67%]
+
+
+REGRESSION TREE
+
+------------------------------------------------------------------------------------------------------------------------------
+x=read.csv("D:/weather.csv")
+x
+s=sample(nrow(x),.7*nrow(x))
+
+weather_tr=x[s,]
+weather_test=x[-s,]
+dtreemod = rpart(hours_played~.,data = weather_tr,method = "anova", control = rpart.control(minsplit=1,minbucket=1))
+rpart.plot(dtreemod)
+actual_preds=data.frame(cbind(actuals=weather_test$hours_played,predicts = p))
+actual_preds

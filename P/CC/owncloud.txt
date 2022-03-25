@@ -1,0 +1,11 @@
+Owncloud, identity management
+
+1) Type: https://demo.owncloud.org/login/apps/files
+
+2) login, uname:demo, passwd:demo
+
+3) For upload doc, click > '+' > select file & upload it.
+
+4) For sharing files, click > any file > in RHS > sharing > users & groups > write email address
+
+5) creating a files, click > '+' > create > choose file type > Enter file name.

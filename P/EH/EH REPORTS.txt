@@ -1,0 +1,23 @@
+
+2.  [PENDING]
+	a) Use CrypTool to encrypt and decrypt passwords using RC4 algorithm
+	b) Use Cain and Abel for cracking Windows account password using Dictionary attack and decode wireless network passwords
+
+3.  [PENDING]
+	a) Run and analyze the output of following commands in Linux 􏰀 ifconfig, ping, netstat,traceroute 
+	b)Perform ARP Poisoning in Windows
+
+4.Use NMap scanner to perform port scanning of various forms 􏰀 ACK, SYN, FIN, NULL, XMAS
+
+5.  a) Use Wireshark (Sniffer) to capture network traffic and analyze
+	b) Use Nemesy to launch DoS attack
+
+6. Simulate persistent cross-site scripting attack
+
+7. Session impersonation using Firefox and Tamper Data add-on 
+
+8. SQL injection
+
+9. Create a simple keylogger using python 
+
+10. Using Metasploit to exploit (Kali Linux) [****]

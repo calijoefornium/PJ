@@ -1,0 +1,11 @@
+Single sign on (SSO)
+
+Type: https://auth0.com/learn/how-to- implement-single-sign-on
+
+Click signup on top right menu & sign up using Google account
+
+After login On dashboard click Authentication->social->google-auth0->3 dots(...)->Try connections
+
+Select your Google account
+
+After that you will get the Data in JSON format

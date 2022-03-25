@@ -1,0 +1,32 @@
+ONLY WORKS WITH NUMERICAL DATA(AGE.csv, 1/2TestData.csv)
+Practical of Principal Component Analysis..[student_rec.csv] 
+
+x = read.csv('D:/student_rec.csv')
+x
+cov_mat = cov(x)
+cov_mat
+ex = eigen(cov_mat)
+ex
+install.packages('factoextra',repos="http://cran.us.r-project.org")
+library("FactoMineR")
+datapca = PCA(x,ncp=3,graph = TRUE)
+print(datapca)
+datapca$eig
+datapca$loadings
+datapca$var
+datapca$var$coord
+library("factoextra")
+fviz_screeplot(datapca,addlables=TRUE,ylim=c(0,50))
+
+-----------------------------------------------------------------------
+head(iris)
+x=iris[,-5]
+x
+install.pakages('factoextra',repos="https://cran.us.r-project.org")
+cov_iris=cov(x)
+cov_iris
+library("FactoMineR")
+irispca=PCA(x,ncp=3,graph=TRUE)
+irispca
+summary(irispca)
+fviz_screeplot(irispca,addlables=TRUE,ylim=c(0,50))

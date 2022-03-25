@@ -1,0 +1,20 @@
+Simple/Multiple Linear Regressions..[Score.csv]
+
+data = read.csv("/")
+data
+plot(x=data$Exam.1,y=data$Final.Score)
+scatter.smooth(x=data$Exam.3,y=data$Final.Score) 
+s=sample(nrow(data),.7*nrow(data))
+score_tr=data[s,]
+score_test=data[-s,]
+score_tr
+score_test
+linmod= lm(Final.Score~Exam.3, data = score_tr)
+print(linmod)
+pdata = predict(linmod,score_test)
+summary(pdata)
+actual_predict = data.frame(cbind(actuals = score_test$Final.Score,predicteds =pdata))
+actual_predict
+cor(actual_predict$actuals,actual_predict$predicteds) 
+max_acc = mean(abs((actual_predict$predicteds = actual_predict$actuals)) / actual_predict$actuals) * 100
+min_acc = mean(abs((actual_predict$predicteds - actual_predict$actuals)) / actual_predict$actuals)

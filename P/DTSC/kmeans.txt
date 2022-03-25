@@ -1,0 +1,25 @@
+ONLY WORKS WITH NUMERICAL DATA (student_rec.csv, 1/2TestData.csv)
+Practical of Clustering..[Age.csv]
+
+df = read.csv("D:/AGE.csv")
+df
+plot(df)
+boxplot(df)
+set.seed(20)
+c1=kmeans(df[,1:2],3)
+c1
+
+----------------------------------------------------------------------------------
+iris
+head(iris)
+View(iris)
+summary(iris)
+plot(iris)
+plot(iris[,3:4])
+library(ggplot2)
+ggplot(iris,aes(Petal.Length,Petal.width,col=iris$Species))+geom_point()
+kmeansc1=kmeans(iris[,3:4],3)
+kmeansc1
+table(kmeansc1$cluster,iris$species)
+boxplot(iris)
+ggplot(iris,aes(Petal.Length,Petal.width,col=cl$cluster))+geom_point()

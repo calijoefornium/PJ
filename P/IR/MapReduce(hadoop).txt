@@ -1,0 +1,16 @@
+HADOOP
+
+1) instll java 8 & eclipse & set Enviornmental variables
+2) downlod "hadoop-2.6.2-eclipse-plugin-master" from browser this folder has 3 .JAR files
+3) copy these 3 JAR files and paste into "C:\eclipse\dropins" folder.
+4) Download "s1pfj-1.7.2.3.jar" and paste it into "C:\eclipse\plugins"
+5) download "hadoop-2.6.2" from browser
+6) download "hadoop-common-2.6.0-bin-master" from browser, move this file to "C:\eclipse\bin"
+7) create "data" folder in "hadoop-2.6.2"
+   - create 2 more folder in "data" folder as "data" and "name"
+8) create 2 folder in "D:\Hadoop" as "temp" and "userlog"
+9) Navigate to "hadoop-2.6.2/etc/" and edit this 4 files
+   - cross-site.xml
+   - hdfs-site.xml
+   - mapred.xml
+   - yarn-site.xml

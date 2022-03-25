@@ -1,0 +1,21 @@
+To study and implementation of Infrastructure as a Service
+
+1) open https://docs.openstack.org/devstack/latest/guides/single-machine.html
+2) Add user: useradd -s /bin/bash -d /opt/stack -m stack 
+		 apt-get install sudo -y 
+		 echo "stack ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
+		 login as stack user
+		 
+3) Download DevStack: sudo apt-get install git -y || sudo yum install -y git
+			    git clone https://git.openstack.org/openstack-dev/devstack
+			    cd devstack
+
+4) Run DevStack
+
+5) Now configure stack.sh, Create local.conf
+
+6) set admin password as "admin" & "demo"
+
+7) set MYSQL Admin password, set RabbitM! password
+
+8) Run DevStack: ./stack.sh

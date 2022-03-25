@@ -1,0 +1,17 @@
+2. MongoDB 
+
+3. Practical of Principal Component Analysis 
+
+4. Practical of Clustering
+
+5. Practical of Time-series forecasting 
+
+6. Practical of Simple/Multiple Linear Regression 
+
+7. Practical of Logistics Regression
+
+8. Practical of Hypothesis testing
+
+9. Practical of Analysis of Variance
+
+10. Practical of Decision Tree 

@@ -1,0 +1,22 @@
+Perform SQL Injection attack
+::::::::::::::::::::::::::::
+Download Xampp Sever : https://www.apachefriends.org/download.html 
+
+Download DVWA From: https://dvwa.co.uk
+
+Extract the DVWA zip file.
+
+Copy folder Paste into Drive C: \ xampp \ htdocs(www) & Rename The File As DVWA
+
+go to htdocs(www) \ DVWA \ config rename the file as config.inc.php & Start Xampp server
+
+Open chrome and search localhost/DVWA , Click on create/reset database & click Login
+
+Enter Username As Admin & Password As password
+
+GoTO DVWA Security: Select security level as “LOW”
+
+GoTO SQL Injection: Userid : 1
+	            Userid :a’’’=‘
+		    Userid : 2
+				  

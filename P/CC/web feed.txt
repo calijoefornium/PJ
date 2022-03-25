@@ -1,0 +1,17 @@
+WAP for Web Feed
+
+1) download and install XAMPP server from ( https://www.apachefriends.org/download.html )
+
+2) create a new XML file from notepad save as ITVOYAGER.xml
+
+3) put this xml file in this location "C\xampp\htdocs\<xml file>
+
+4) Start "apache" server from XAMPP control panel
+
+5) open chrome and type https://lochost/ITVOYAGER.xml
+
+6) download "RSS Subscription extension" from Google web store ( https://chrome.google.com/webstore/category/extensions )
+
+7) Enter the below code:
+
+<?xml version="1.0" encoding="UTF-8" ?> <rss version="2.0"> <channel> <title>ITVoyagers</title> <link>http://itvoyagers.in</link> <description>ITVoyagers is an educational blog for information technology and computer science program. We are aiming to expand its scope in all sections of IT.</description> <item> <title>Cloud Computing</title> <link>http://itvoyagers.in/cloud-computing/</link> <description>Cloud Computing Practical For TYCS</description> </item> <item> <title>Business Intelligence</title> <link>http://itvoyagers.in/advance-topics/business-intelligence/</link> <description>Business Intelligence Practical for TYIT</description> </item> <item> <title>Geographical Information System </title> <link>https://itvoyagers.in/advance-topics/geographical-information-system-gis/</link> <description>Geographical Information System Practical for TYIT</description> </item> </channel> </rss>

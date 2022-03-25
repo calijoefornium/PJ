@@ -1,0 +1,29 @@
+Lucene
+
+1) setup eclipse
+
+2) Search 'lucene-3.6.2.zip' on browser and download it.
+
+3) create new folder as "lucene" and Extract the downloaded lucene files to "D:/lucene"
+
+4) create a java project "LuceneFirstApplication" in eclipse
+
+5) Right click > Project name > Build path > Add external JAR > file > lucene-3.6.2.jar
+
+6) Create package
+
+   - Right click > project name > package > name it as > "lucenepack" > "Don't create module"
+
+7) Create java files in package
+
+   - Indexer.java
+
+   - LuceneConstant.java
+
+   - LuceneTester.java
+
+   - Searcher.java
+
+   - TextFileFilter.java
+
+8) Run LuceneTester.java

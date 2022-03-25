@@ -1,0 +1,38 @@
+LOGISTIC REGRESSION..[weather.csv]
+
+x1=read.csv("D:/weather.csv")
+x1
+x1$humidity=ifelse(test = x1 $humidity=="high",yes=1,no=0)
+x1
+x1$play=ifelse(test = x1$play=="yes",yes=1,no=0)
+x1
+x1 $windy=ifelse(test = x1$windy=="FALSE",yes=1,no=0)
+x1
+s=sample(nrow(x1),.7*nrow(x1))
+x1_tr=x1[s,]
+x1_test=x1[-s,]
+nrow(x1)
+nrow(x1_tr)
+nrow(x1_test)
+lmod=glm(play~windy,data=x1_tr,family=binomial)
+lmod
+summary(lmod)
+lmod=glm(play~humidity,data=x1_tr,family=binomial)
+lmod
+summary(lmod)
+lmod=glm(play~temperature,data=x1_tr,family=binomial)
+lmod
+summary(lmod)
+
+----------------------------------------------------------------------------------
+x2=iris
+x2
+head(iris)
+s=sample(nrow(x2),.5*nrow(x2))
+x2_tr=x2[s, ]
+x2_test=x2[-s, ]
+nrow(x2)
+nrow(x2_tr)
+nrow(x2_test)
+lmod=glm(Species~Sepal.Length,data=x2_tr,family=binomial)
+summary(lmod)

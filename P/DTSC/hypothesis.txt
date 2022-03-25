@@ -1,0 +1,26 @@
+WORKS WITH NUMERICAL DATA (student_rec.csv, 1/2TestData.csv)
+HYPOTHESIS..[1TtestData.csv,2TtestData.csv]
+		USING 1 SAMPLE t-Test
+
+datanew=read.csv('D:/1TtestData.csv')
+datanew
+boxplot(datanew)
+m1=mean(datanew$weight.loss)
+m1
+sd1=sd(datanew$weight.loss)
+sd1
+t.test(datanew$weight.loss,alternative = "greater")
+-----------------------------------------------------------
+		USING 2 SAMPLE t-Test
+datanew1=read.csv('D:/2TtestData.csv')
+datanew1
+boxplot(datanew1)
+m1=mean(datanew1$C1)
+m1
+m2=mean(datanew1$C2)
+m2
+sd1=sd(datanew1$C1)
+sd1
+sd2=sd(datanew1$C2)
+sd2
+t.test(datanew1$C1,datanew1$C2,alternative = "greater")

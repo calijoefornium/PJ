@@ -1,0 +1,20 @@
+1.bitwise operation.
+
+2.Page Rank.
+
+3.edit distance between strings s1 and s2.
+
+4.Compute Similarity between two text documents.
+
+5.Write a map-reduce program to count the number of occurrences of each alphabetic character in the given dataset. The count for each letter should be case-insensitive [PENDING]
+
+6.Lucene. 
+
+7.stop word removal.
+
+8.Tkinter
+
+9.web crawler.
+
+10.parse XML text, generate Web graph and compute topic specific page
+rank.

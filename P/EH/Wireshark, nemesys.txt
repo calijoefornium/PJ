@@ -1,0 +1,16 @@
+Use Wireshark (Sniffer) to capture network traffic and analyze
+
+1. Register: http://testyou.in/SignUp.aspx
+2. open wireshark
+3. LOGIN: http://testyou.in/Login.aspx?ReturnUrl=%2fStudent%2fStudentIndex.aspx%3faction%3dlogout&action=logout 
+4. click wifi icon on wireshark & on first search bar type "http" [Right Click on Login.aspx], Follow->TCP Stream
+5. type "UserLogin"
+
+---------------------------------------------------------------------------------------------------------------
+
+Use Nemesy to launch DoS attack
+
+1. Download https://packetstormsecurity.com/files/25599/nemesy13.zip.html
+2. Run as Admin
+3. Enter Targeted IP Address- 10.128.131.108, Number = 0, Size = 35k, Delay = 100ms
+4. Click on "Send"

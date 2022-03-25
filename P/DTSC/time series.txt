@@ -1,0 +1,23 @@
+Time series forecasting..[iris(AirPassengers)Dataset]
+
+install.packages("timeSeries")
+install.packages("forecast")
+library(timeSeries)
+library(forecast)
+data1 = table(AirPassengers)
+data1
+View(data1)
+frequency(AirPassengers)
+tsdata = ts(AirPassengers,frequency = 12)
+tsdata
+plot(tsdata)
+d = decompose(tsdata,"multiplicative")
+plot(d)
+plot(d$trend)
+plot(d$random)
+plot(d$seasonal)
+boxplot(AirPassengers~cycle(AirPassengers,xlab="Month",ylab="Passenger count",main="Monthly box plot"))
+mymodel=auto.arima(AirPassengers)
+myforecast=forecast(mymodel,level = c(95),h=10*12)
+plot(myforecast)
+myforecast
