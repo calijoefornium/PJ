@@ -22,6 +22,7 @@
 <br>
 <a href="https://github.com/calijoefornium/PJ/blob/main/P/DTSC/anova.txt">4. Anova</a>
 <br>
+<hr>
 <a href="https://github.com/calijoefornium/PJ/blob/main/P/DTSC/kmeans.txt">5. Clustering (Kmeans)</a>
 <br>
 <a href="https://github.com/calijoefornium/PJ/blob/main/P/DTSC/sim_mul%20lin%20reg.txt">6. Simple/Multiple Regression</a>
