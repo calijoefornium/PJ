@@ -12,3 +12,10 @@ stacked_g=stack(cg)
 stacked_g
 av=aov(values~ind,data=stacked_g)
 summary(av)
+
+CONCLUSION: Df(degree of freedom) = number of group - 1
+            Residuals = number of samples - number of groups
+                      = 15-3
+                       =12
+                       
+Here p value is less than 0.05 so we accept the alternative hypothesis
