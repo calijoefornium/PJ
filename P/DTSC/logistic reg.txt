@@ -24,7 +24,9 @@ lmod=glm(play~temperature,data=x1_tr,family=binomial)
 lmod
 summary(lmod)
 
-----------------------------------------------------------------------------------
+CONCLUSION: Here the p value for "windy" "humidity" "temperature" is not less 
+or equal to 0.05 so we cannot consider them as significant variable for Weather dataset
+-----------------------------------------------------------------------------------------
 x2=iris
 x2
 head(iris)
@@ -36,3 +38,5 @@ nrow(x2_tr)
 nrow(x2_test)
 lmod=glm(Species~Sepal.Length,data=x2_tr,family=binomial)
 summary(lmod)
+
+CONCLUSION: Here the p value is less than 0.05 so we cannot consider them as significant variable for IRIS dataset
