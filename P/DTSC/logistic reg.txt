@@ -39,4 +39,4 @@ nrow(x2_test)
 lmod=glm(Species~Sepal.Length,data=x2_tr,family=binomial)
 summary(lmod)
 
-CONCLUSION: Here the p value is less than 0.05 so we cannot consider them as significant variable for IRIS dataset
+CONCLUSION: Here the p value is less than 0.05 so we can consider them as significant variable for IRIS dataset
