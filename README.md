@@ -1,16 +1,29 @@
-# PKT's
-<a href="https://github.com/calijoefornium/PJ/raw/main/P/WSN%20PKTS/wsn%20P-5.pkt">1. Reading and Analyzing Routing Table </a>
+# IR
+<a href="https://github.com/calijoefornium/PJ/blob/main/P/IR/Bitwise.java">1. Bitwise</a>
 <br>
-<a href="https://github.com/calijoefornium/PJ/raw/main/P/WSN%20PKTS/wsn%20P-7.pkt">2. Implement WSN Simulation </a>
-<br> 
-<a href="https://github.com/calijoefornium/PJ/raw/main/P/WSN%20PKTS/wsn%20P-8.pkt">3. MAC Protocol Simulation </a>
-<br> 
-<a href="https://github.com/calijoefornium/PJ/raw/main/P/WSN%20PKTS/wsn%20P-9.pkt">4. Simulate Mobile Adhoc Network </a>
-<br> 
-<a href="https://github.com/calijoefornium/PJ/raw/main/P/WSN%20PKTS/wsn%20P-10.pkt">5. Create mobile network using Cell-Tower,....</a>
+<a href="https://github.com/calijoefornium/PJ/blob/main/P/IR/PageRank.java">2. Page Rank</a>
+<br>
+<a href="https://github.com/calijoefornium/PJ/blob/main/P/IR/EditDistanceProblem.java">3. Edit Distance</a>
+<br>
+<a href="https://github.com/calijoefornium/PJ/blob/main/P/IR/Compute%20Similarity.py">4. Similarity between 2 txt documents</a>
+<br>
+<a href="https://github.com/calijoefornium/PJ/blob/main/P/IR/MapReduce(hadoop).txt">5. Map Reduce (Hadoop) Steps</a>
+<br>
+<a href="https://github.com/calijoefornium/PJ/tree/main/P/IR/LuceneFirstApplication">6. Lucene</a>
+<a href="https://github.com/calijoefornium/PJ/blob/main/P/IR/LuceneFirstApplication/STEPS.txt">{Lucene Steps}</a>
+<br>
+<a href="https://github.com/calijoefornium/PJ/blob/main/P/IR/stopwords.py">7. Stop words</a>
+<br>
+<a href="https://github.com/calijoefornium/PJ/blob/main/P/IR/Tkinter.py">8. Tkinter</a>
+<br>
+<a href="https://github.com/calijoefornium/PJ/blob/main/P/IR/Crawler.java">9. Web Crawler</a>
+<br>
+<a href="https://github.com/calijoefornium/PJ/tree/main/P/IR/emp%20pract">10. parse Xml (emp pract)</a>
+<br>
 
 
-# DTSc
+
+# DTSc  <a href="https://github.com/calijoefornium/DataSet/archive/refs/heads/main.zip">(ALL DATASETS)</a>
 
 <!--<a href="https://github.com/calijoefornium/PJ/blob/main/P/DTSC/MONGODB.txt">1. Mongo</a>
 <br>-->
@@ -63,30 +76,17 @@
 <br>
 <a href="https://github.com/calijoefornium/PJ/blob/main/P/EH/kali%20linux.txt">8. Kali Linux </a>
 
-# IR
-<a href="https://github.com/calijoefornium/PJ/blob/main/P/IR/Bitwise.java">1. Bitwise</a>
-<br>
-<a href="https://github.com/calijoefornium/PJ/blob/main/P/IR/PageRank.java">2. Page Rank</a>
-<br>
-<a href="https://github.com/calijoefornium/PJ/blob/main/P/IR/EditDistanceProblem.java">3. Edit Distance</a>
-<br>
-<a href="https://github.com/calijoefornium/PJ/blob/main/P/IR/Compute%20Similarity.py">4. Similarity between 2 txt documents</a>
-<br>
-<a href="https://github.com/calijoefornium/PJ/blob/main/P/IR/MapReduce(hadoop).txt">5. Map Reduce (Hadoop) Steps</a>
-<br>
-<a href="https://github.com/calijoefornium/PJ/tree/main/P/IR/LuceneFirstApplication">6. Lucene</a>
-<a href="https://github.com/calijoefornium/PJ/blob/main/P/IR/LuceneFirstApplication/STEPS.txt">{Lucene Steps}</a>
-<br>
-<a href="https://github.com/calijoefornium/PJ/blob/main/P/IR/stopwords.py">7. Stop words</a>
-<br>
-<a href="https://github.com/calijoefornium/PJ/blob/main/P/IR/Tkinter.py">8. Tkinter</a>
-<br>
-<a href="https://github.com/calijoefornium/PJ/blob/main/P/IR/Crawler.java">9. Web Crawler</a>
-<br>
-<a href="https://github.com/calijoefornium/PJ/tree/main/P/IR/emp%20pract">10. parse Xml (emp pract)</a>
-<br>
 
-
+# PKT's
+<a href="https://github.com/calijoefornium/PJ/raw/main/P/WSN%20PKTS/wsn%20P-5.pkt">1. Reading and Analyzing Routing Table </a>
+<br>
+<a href="https://github.com/calijoefornium/PJ/raw/main/P/WSN%20PKTS/wsn%20P-7.pkt">2. Implement WSN Simulation </a>
+<br> 
+<a href="https://github.com/calijoefornium/PJ/raw/main/P/WSN%20PKTS/wsn%20P-8.pkt">3. MAC Protocol Simulation </a>
+<br> 
+<a href="https://github.com/calijoefornium/PJ/raw/main/P/WSN%20PKTS/wsn%20P-9.pkt">4. Simulate Mobile Adhoc Network </a>
+<br> 
+<a href="https://github.com/calijoefornium/PJ/raw/main/P/WSN%20PKTS/wsn%20P-10.pkt">5. Create mobile network using Cell-Tower,....</a>
 
 
 
