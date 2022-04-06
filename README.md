@@ -1,4 +1,5 @@
-# IR
+<!--# IR-->
+<!--
 <a href="https://github.com/calijoefornium/PJ/blob/main/P/IR/Bitwise.java">1. Bitwise</a>
 <br>
 <a href="https://github.com/calijoefornium/PJ/blob/main/P/IR/PageRank.java">2. Page Rank</a>
@@ -20,7 +21,7 @@
 <br>
 <a href="https://github.com/calijoefornium/PJ/tree/main/P/IR/emp%20pract">10. parse Xml (emp pract)</a>
 <br>
-
+-->
 
 
 # DTSc  <a href="https://github.com/calijoefornium/DataSet/archive/refs/heads/main.zip">(ALL DATASETS)</a>
