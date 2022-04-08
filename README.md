@@ -24,10 +24,12 @@
 -->
 
 
-# DTSc  <a href="https://github.com/calijoefornium/DataSet/archive/refs/heads/main.zip">(ALL DATASETS)</a>
+<!--# DTSC -->
+<!--
+<a href="https://github.com/calijoefornium/DataSet/archive/refs/heads/main.zip">(ALL DATASETS)</a>
 
-<!--<a href="https://github.com/calijoefornium/PJ/blob/main/P/DTSC/MONGODB.txt">1. Mongo</a>
-<br>-->
+<a href="https://github.com/calijoefornium/PJ/blob/main/P/DTSC/MONGODB.txt">1. Mongo</a>
+<br>
 <a href="https://github.com/calijoefornium/PJ/blob/main/P/DTSC/pca.txt">1. PCA</a>
 <br>
 <a href="https://github.com/calijoefornium/PJ/blob/main/P/DTSC/time series.txt">2. Time Series</a>
@@ -59,6 +61,7 @@
 <br>
 <a href="https://github.com/calijoefornium/PJ/blob/main/P/CC/onelogin.txt">6. User Management(OneLogin - ProtonMail)</a>
 <br>
+-->
 
 # EH
 <a href="https://github.com/calijoefornium/Cain-Abel/archive/refs/heads/main.zip">1. Cain Abel Setup Files </a>
