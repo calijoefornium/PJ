@@ -1,7 +1,7 @@
 Simulate persistent cross-site scripting attack
 ::::::::::::::::::::::::::::::::::::::::::::::::
 Download Xampp Sever : https://www.apachefriends.org/download.html 
-
+Download WAMP Server :https://download.cnet.com/WampServer-64-Bit/3000-10248_4-75544590.html
 Download DVWA From: https://dvwa.co.uk
 
 Extract the DVWA zip file.
