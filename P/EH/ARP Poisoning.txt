@@ -1,0 +1,15 @@
+1) Open Cain & Abel tool
+
+2) Click on Sniffer tab
+
+3) Click on  ☢ select range button from IP 192.168.9.1 to 192.168.9.254  click OK
+
+4) Start/Stop sniffer & give range value and click OK
+
+5) Right click on any IP & select Resolve host name
+
+6) Click on ARP tab on bottom
+
+7) Click on Add button & select your router and IP address
+
+8) Click on the IP & then click on ☢ and start ARP Poisoning 
